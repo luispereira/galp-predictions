@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-05-10T21:01:35Z",
+  "generatedAtUtc": "2026-05-12T08:37:08Z",
   "historySource": "data/prediction/prediction-history.jsonl",
   "weekCount": 4,
   "weeks": [
@@ -118,7 +118,20 @@
         "brent": true,
         "ense": true,
         "tax_overrides": true
-      }
+      },
+      "dgegSnapshotMeta": {
+        "olderWeekMonday": "2026-05-04",
+        "newerWeekMonday": "2026-05-11",
+        "olderSnapshotDate": "2026-05-08",
+        "newerSnapshotDate": "2026-05-12",
+        "method": "PesquisarPostos_mean_WoW"
+      },
+      "actualGasolineChangeLitre": -0.01,
+      "actualDieselChangeLitre": -0.06,
+      "actualSource": "dgeg_pesquisarpostos_mean_wow",
+      "actualRecordedAtUtc": "2026-05-12T08:37:08Z",
+      "driftGasolineChangeLitre": 0.06,
+      "driftDieselChangeLitre": 0.1
     }
   ]
 }

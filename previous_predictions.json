@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-05-18T09:05:33Z",
+  "generatedAtUtc": "2026-05-22T09:06:11Z",
   "historySource": "data/prediction/prediction-history.jsonl",
-  "weekCount": 5,
+  "weekCount": 6,
   "weeks": [
     {
       "generatedAtUtc": "2026-04-18T03:06:24Z",
@@ -166,6 +166,27 @@
       "actualRecordedAtUtc": "2026-05-18T09:05:33Z",
       "driftGasolineChangeLitre": -0.04,
       "driftDieselChangeLitre": 0.01
+    },
+    {
+      "generatedAtUtc": "2026-05-22T09:06:10Z",
+      "validFromUtc": "2026-05-24T23:00:00Z",
+      "weekRange": "25 a 31 de maio",
+      "modelUsed": "ense_window_delta",
+      "fallbackUsed": null,
+      "gasolineChangeLitre": -0.03,
+      "dieselChangeLitre": -0.01,
+      "confidence": "high",
+      "confidenceScore": 0.82,
+      "taxAdjGasoline95": 0.0,
+      "taxAdjDiesel": 0.0,
+      "sourcesOk": {
+        "dgeg": true,
+        "ecb": true,
+        "refined_products": false,
+        "brent": true,
+        "ense": true,
+        "tax_overrides": true
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-06-05T09:08:36Z",
+  "generatedAtUtc": "2026-06-08T09:31:17Z",
   "weeks": [
     {
       "weekRange": "20 a 26 de abril",
@@ -70,7 +70,9 @@
       "validFromUtc": "2026-06-07T23:00:00Z",
       "gasolineChangeLitre": -0.0,
       "dieselChangeLitre": 0.02,
-      "confidence": "medium"
+      "confidence": "medium",
+      "actualGasolineChangeLitre": -0.0,
+      "actualDieselChangeLitre": 0.01
     }
   ]
 }

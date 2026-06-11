@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-06-11T08:28:53Z",
+  "rules": [
+    {
+      "id": "galp_continente_coupon",
+      "brand": "GALP",
+      "defaultCentsPerLitre": 12,
+      "sourceUrl": "https://www.galp.com/pt/casa/ajuda/energias-servicos-e-equipamentos/quais-vantagens-de-fazer-contrato-no-plano-combina-com-galp",
+      "confidence": "medium",
+      "notes": "Typical Continente coupon; user enters daily value in app"
+    },
+    {
+      "id": "galp_mundo_galp",
+      "brand": "GALP",
+      "defaultCentsPerLitre": 8,
+      "sourceUrl": "https://www.galp.com/pt/casa/ajuda/energias-servicos-e-equipamentos/quais-vantagens-de-fazer-contrato-no-plano-combina-com-galp",
+      "confidence": "high"
+    },
+    {
+      "id": "bp_poupa_mais",
+      "brand": "BP",
+      "defaultCentsPerLitre": 5,
+      "sourceUrl": "https://www.poupamais.pt/",
+      "confidence": "medium"
+    },
+    {
+      "id": "repsol_my_repsol",
+      "brand": "REPSOL",
+      "defaultCentsPerLitre": 6,
+      "sourceUrl": "https://www.repsol.pt/particulares/beneficios/plano-motor/",
+      "confidence": "medium",
+      "notes": "6 immediate + 4 saldo typical"
+    },
+    {
+      "id": "acp_bp",
+      "brand": "BP",
+      "defaultCentsPerLitre": 6,
+      "sourceUrl": "https://www.acp.pt/",
+      "confidence": "low"
+    },
+    {
+      "id": "custom",
+      "defaultCentsPerLitre": 5,
+      "confidence": "low",
+      "notes": "User-defined fallback for other brands"
+    }
+  ]
+}

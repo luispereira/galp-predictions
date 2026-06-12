@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-06-11T08:28:53Z",
+  "generatedAtUtc": "2026-06-12T18:36:25Z",
   "rules": [
     {
       "id": "galp_continente_coupon",
       "brand": "GALP",
       "defaultCentsPerLitre": 12,
-      "sourceUrl": "https://www.galp.com/pt/casa/ajuda/energias-servicos-e-equipamentos/quais-vantagens-de-fazer-contrato-no-plano-combina-com-galp",
-      "confidence": "medium",
+      "sourceUrl": "https://www.galp.com/pt/energias/system/files/2026-06/galp-plano-combina-tabela-precos-descontos-0626.pdf",
+      "confidence": "high",
       "notes": "Typical Continente coupon; user enters daily value in app"
     },
     {
       "id": "galp_mundo_galp",
       "brand": "GALP",
       "defaultCentsPerLitre": 8,
-      "sourceUrl": "https://www.galp.com/pt/casa/ajuda/energias-servicos-e-equipamentos/quais-vantagens-de-fazer-contrato-no-plano-combina-com-galp",
+      "sourceUrl": "https://www.galp.com/pt/energias/system/files/2026-06/galp-plano-combina-tabela-precos-descontos-0626.pdf",
       "confidence": "high"
     },
     {

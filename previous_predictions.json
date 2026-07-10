@@ -1,16 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-07-06T10:38:26Z",
+  "generatedAtUtc": "2026-07-10T10:47:39Z",
   "weeks": [
-    {
-      "weekRange": "4 a 10 de maio",
-      "validFromUtc": "2026-05-03T23:00:00Z",
-      "gasolineChangeLitre": 0.08,
-      "dieselChangeLitre": 0.08,
-      "confidence": "high",
-      "actualGasolineChangeLitre": 0.06,
-      "actualDieselChangeLitre": 0.08
-    },
     {
       "weekRange": "11 a 17 de maio",
       "validFromUtc": "2026-05-10T23:00:00Z",
@@ -89,6 +80,13 @@
       "gasolineChangeLitre": -0.01,
       "dieselChangeLitre": -0.01,
       "confidence": "high"
+    },
+    {
+      "weekRange": "13 a 19 de julho",
+      "validFromUtc": "2026-07-12T23:00:00Z",
+      "gasolineChangeLitre": 0.03,
+      "dieselChangeLitre": 0.04,
+      "confidence": "medium"
     }
   ]
 }

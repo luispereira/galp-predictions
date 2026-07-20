@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-06-12T18:36:25Z",
+  "generatedAtUtc": "2026-07-20T12:47:41Z",
   "rules": [
     {
       "id": "galp_continente_coupon",
       "brand": "GALP",
       "defaultCentsPerLitre": 12,
-      "sourceUrl": "https://www.galp.com/pt/energias/system/files/2026-06/galp-plano-combina-tabela-precos-descontos-0626.pdf",
+      "sourceUrl": "https://www.galp.com/pt/casa/system/files/2026-06/galp-plano-combina-tabela-precos-descontos-0626.pdf",
       "confidence": "high",
       "notes": "Typical Continente coupon; user enters daily value in app"
     },
@@ -14,7 +14,7 @@
       "id": "galp_mundo_galp",
       "brand": "GALP",
       "defaultCentsPerLitre": 8,
-      "sourceUrl": "https://www.galp.com/pt/energias/system/files/2026-06/galp-plano-combina-tabela-precos-descontos-0626.pdf",
+      "sourceUrl": "https://www.galp.com/pt/casa/system/files/2026-06/galp-plano-combina-tabela-precos-descontos-0626.pdf",
       "confidence": "high"
     },
     {
@@ -28,7 +28,7 @@
       "id": "repsol_my_repsol",
       "brand": "REPSOL",
       "defaultCentsPerLitre": 6,
-      "sourceUrl": "https://www.repsol.pt/particulares/beneficios/plano-motor/",
+      "sourceUrl": "https://www.repsol.pt/particulares/my-repsol/saldo/",
       "confidence": "medium",
       "notes": "6 immediate + 4 saldo typical"
     },
@@ -36,14 +36,69 @@
       "id": "acp_bp",
       "brand": "BP",
       "defaultCentsPerLitre": 6,
-      "sourceUrl": "https://www.acp.pt/",
-      "confidence": "low"
+      "sourceUrl": "https://www.acp.pt/servicos/descontos-e-poupanca/descontos-em-destaque/descontos-na-bp",
+      "confidence": "high",
+      "notes": "6 ct/L simple / 9 ct/L Ultimate everyday; day 15 = 15 ct/L Ultimate. BP-only partnership."
+    },
+    {
+      "id": "lidl_plus_repsol",
+      "brand": "REPSOL",
+      "defaultCentsPerLitre": 6,
+      "sourceUrl": "https://www.repsol.pt/particulares/parceiros/grande-distribuicao/lidl/",
+      "confidence": "high",
+      "notes": "6 ct/L immediate with Lidl Plus card; 10 ct/L if also linked to My Repsol app"
+    },
+    {
+      "id": "alves_bandeira_pontos_ab",
+      "brand": "ALVES BANDEIRA",
+      "defaultCentsPerLitre": 6,
+      "sourceUrl": "https://www.alvesbandeira.pt/pt/pontos-ab/",
+      "confidence": "medium",
+      "notes": "Up to 6 ct/L weekends, up to 12 ct/L Wednesdays (min €40)"
+    },
+    {
+      "id": "cepsa_moeve_gow",
+      "brand": "CEPSA",
+      "defaultCentsPerLitre": 5,
+      "sourceUrl": "https://pt.moeveglobal.com/pt/particular/clube-gow/condicoes",
+      "confidence": "medium",
+      "notes": "5 ct/L saldo simple fuels; 6 ct/L Óptima. Redeemable on next fill. DECO subscribers get 13 ct/L direct."
     },
     {
       "id": "custom",
       "defaultCentsPerLitre": 5,
       "confidence": "low",
       "notes": "User-defined fallback for other brands"
+    }
+  ],
+  "bpSecondaryProgrammes": [
+    {
+      "id": "bp_edp_standard",
+      "partner": "edp",
+      "variant": "standard",
+      "eurPerBlock": 2,
+      "litresPerBlock": 40,
+      "monthlyCapEur": 10,
+      "sourceUrl": "https://www.poupamais.pt/",
+      "enabled": true
+    },
+    {
+      "id": "bp_edp_pack",
+      "partner": "edp",
+      "variant": "pack",
+      "eurPerBlock": 4,
+      "litresPerBlock": 40,
+      "monthlyCapEur": 20,
+      "sourceUrl": "https://www.poupamais.pt/",
+      "enabled": true
+    },
+    {
+      "id": "bp_via_verde_regular",
+      "partner": "via_verde",
+      "eurPerBlock": 1,
+      "litresPerBlock": 20,
+      "sourceUrl": "https://www.viaverde.pt/vantagens/bp",
+      "enabled": true
     }
   ]
 }

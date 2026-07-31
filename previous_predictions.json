@@ -1,21 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-07-28T09:26:18Z",
+  "generatedAtUtc": "2026-07-31T10:32:21Z",
   "weeks": [
-    {
-      "weekRange": "25 a 31 de maio",
-      "validFromUtc": "2026-05-24T23:00:00Z",
-      "gasolineChangeLitre": -0.03,
-      "dieselChangeLitre": -0.01,
-      "confidence": "high",
-      "actualGasolineChangeLitre": 0.03,
-      "actualDieselChangeLitre": -0.0,
-      "actualGasolineSincePriorFriChangeLitre": 0.01,
-      "actualDieselSincePriorFriChangeLitre": 0.0,
-      "actualBaselinePriorMonDate": "2026-05-18",
-      "actualBaselinePriorFriDate": "2026-05-22",
-      "actualBaselineCurrentMonDate": "2026-05-25"
-    },
     {
       "weekRange": "1 a 7 de junho",
       "validFromUtc": "2026-05-31T23:00:00Z",
@@ -141,6 +127,13 @@
       "actualBaselinePriorMonDate": "2026-07-20",
       "actualBaselinePriorFriDate": "2026-07-24",
       "actualBaselineCurrentMonDate": "2026-07-27"
+    },
+    {
+      "weekRange": "3 a 9 de agosto",
+      "validFromUtc": "2026-08-02T23:00:00Z",
+      "gasolineChangeLitre": 0.04,
+      "dieselChangeLitre": 0.08,
+      "confidence": "medium"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "source": "precocombustiveis.pt",
   "url": "https://precocombustiveis.pt/proxima-semana/",
-  "fetchedAtUtc": "2026-08-03T11:12:03Z",
-  "weekRange": "3 a 9 de agosto",
-  "dieselChangeLitre": 0.02,
-  "gasolineChangeLitre": -0.01
+  "fetchedAtUtc": "2026-08-07T08:51:08Z",
+  "weekRange": "10 a 16 de agosto",
+  "dieselChangeLitre": -0.12,
+  "gasolineChangeLitre": -0.125
 }

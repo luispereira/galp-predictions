@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "source": "precocombustiveis.pt",
   "url": "https://precocombustiveis.pt/proxima-semana/",
-  "fetchedAtUtc": "2026-09-14T15:04:03Z",
-  "weekRange": "14 a 20 de setembro",
-  "dieselChangeLitre": 0.04,
-  "gasolineChangeLitre": -0.06
+  "fetchedAtUtc": "2026-09-21T15:09:13Z",
+  "weekRange": "21 a 27 de setembro",
+  "dieselChangeLitre": 0.085,
+  "gasolineChangeLitre": 0.065
 }

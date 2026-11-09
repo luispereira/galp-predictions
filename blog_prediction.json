@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "source": "precocombustiveis.pt",
   "url": "https://precocombustiveis.pt/proxima-semana/",
-  "fetchedAtUtc": "2026-11-02T18:29:45Z",
-  "weekRange": "2 a 8 de novembro",
-  "dieselChangeLitre": 0.025,
-  "gasolineChangeLitre": -0.025
+  "fetchedAtUtc": "2026-11-09T18:53:35Z",
+  "weekRange": "9 a 15 de novembro",
+  "dieselChangeLitre": -0.11,
+  "gasolineChangeLitre": -0.125
 }

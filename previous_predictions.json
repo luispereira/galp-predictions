@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-11-09T18:53:35Z",
+  "generatedAtUtc": "2026-11-13T16:25:45Z",
   "weeks": [
     {
       "weekRange": "29 de junho a 5 de julho",
@@ -211,6 +211,13 @@
       "actualBaselinePriorMonDate": "2026-11-02",
       "actualBaselinePriorFriDate": "2026-11-06",
       "actualBaselineCurrentMonDate": "2026-11-09"
+    },
+    {
+      "weekRange": "16 a 22 de novembro",
+      "validFromUtc": "2026-11-16T00:00:00Z",
+      "gasolineChangeLitre": -0.06,
+      "dieselChangeLitre": -0.01,
+      "confidence": "medium"
     }
   ]
 }

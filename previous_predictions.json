@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-11-13T16:25:45Z",
+  "generatedAtUtc": "2026-11-16T18:38:58Z",
   "weeks": [
     {
       "weekRange": "29 de junho a 5 de julho",
@@ -217,7 +217,14 @@
       "validFromUtc": "2026-11-16T00:00:00Z",
       "gasolineChangeLitre": -0.06,
       "dieselChangeLitre": -0.01,
-      "confidence": "medium"
+      "confidence": "medium",
+      "actualGasolineChangeLitre": -0.03,
+      "actualDieselChangeLitre": -0.06,
+      "actualGasolineSincePriorFriChangeLitre": 0.12,
+      "actualDieselSincePriorFriChangeLitre": 0.11,
+      "actualBaselinePriorMonDate": "2026-11-09",
+      "actualBaselinePriorFriDate": "2026-11-13",
+      "actualBaselineCurrentMonDate": "2026-11-16"
     }
   ]
 }
